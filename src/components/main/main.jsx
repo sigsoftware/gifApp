@@ -10,10 +10,10 @@ import load from "./../assets/loading.gif";
 import { useLogo } from "./../customHooks/useLogo";
 import "animate.css";
 
-const Main = () => {
+const Main = ({ defaultCategories = [] }) => {
 
     let [term, setTerm] = useState("");
-    let [categories, setCategories] = useState([]);
+    let [categories, setCategories] = useState(defaultCategories);
 
     let { data, loading } = useFetchGifs(term);
 

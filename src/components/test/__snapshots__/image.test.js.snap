@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas a realizar al componente de imagen  Testear mediante un snapshot el componente de imagen 1`] = `
+<Fragment>
+  <img
+    alt="test"
+    className="image"
+    src="https://www.infobae.com/new-resizer/nLv3x5W1j7DasOsVz_oq_YLetWs=/1200x628/filters:format(webp):quality(85)//arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/EUURIT3YORELNJGPEDTTKBXOXU"
+  />
+</Fragment>
+`;

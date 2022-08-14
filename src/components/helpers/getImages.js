@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 
 let params = {
     url: "https://api.giphy.com/v1/gifs",
@@ -37,6 +38,12 @@ let GetImagesRandom = async () => {
     }
 }
 
+GetImagesBySearchField.defaultProps = {
+    term: "aerith",
+}
 
+GetImagesBySearchField.propTypes = {
+    term: PropTypes.string.isRequired,
+}
 
 export { GetImagesBySearchField, GetImagesRandom };

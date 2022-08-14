@@ -12,8 +12,10 @@ export const Items = ({ item, term, setTerm }) => {
 
 Items.defaultProps = {
     item: [{}],
+    term: "",
 }
 
 Items.propTypes = {
     item: PropTypes.any.isRequired,
+    term: PropTypes.string.isRequired,
 }

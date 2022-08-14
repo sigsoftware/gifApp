@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente Main Probar que la pagina se renderiza correctamente 1`] = `
+<Fragment>
+  <img
+    className="logo animate__animated animate__bounceIn"
+  />
+  <h1
+    className="title animate_animated animate__fadeInUp"
+  >
+    Gif App
+  </h1>
+  <div
+    className="search"
+  >
+    <Search
+      setTerm={[Function]}
+      term=""
+    />
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      Guardar en Historial
+    </button>
+  </div>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="column1"
+    >
+      <div
+        className="content"
+      >
+        <History />
+      </div>
+    </div>
+    <div
+      className="column2"
+    />
+  </div>
+</Fragment>
+`;

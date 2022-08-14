@@ -4,7 +4,7 @@ import "./history.css";
 let History = (props) => {
     return (
         <>
-            <ol>{props.children}</ol>
+            <ol className="list">{props.children}</ol>
         </>
     )
 }

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al componente de Search Probar que el search se renderiza correctamente 1`] = `
+<Fragment>
+  <div
+    className="searchBody"
+  >
+    <div
+      className="Card"
+    >
+      <div
+        className="CardInner"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="InputContainer"
+          >
+            <input
+              id="searchTerm"
+              name="searchTerm"
+              placeholder="Ingrese un nombre"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

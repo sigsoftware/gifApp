@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al componente History Probar que la pagina se renderiza correctamente 1`] = `
+<Fragment>
+  <ol
+    className="list"
+  />
+</Fragment>
+`;

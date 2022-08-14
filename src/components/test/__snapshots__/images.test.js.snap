@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas a realizar al componente de Images Testear que la pagina se renderiza correctamente 1`] = `
+<Fragment>
+  <h2>
+    Resultados para 
+    <b>
+      TEST
+    </b>
+  </h2>
+  <ul
+    className="gridImages animate__animated animate__bounceInUp"
+  />
+</Fragment>
+`;
